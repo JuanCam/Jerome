@@ -1,0 +1,1 @@
+var Jerome = window.Jerome || {};
