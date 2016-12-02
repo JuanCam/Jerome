@@ -78,6 +78,9 @@ describe('Model (Three models are going to be created)', function() {
     it('modelA emit method. It should emit an event ans=2', function() {
         expect(modelA.emit('cambioNombre')).toBe(2);
     });
+    it('modelA on method. It should listen a view', function() {
+        expect(modelA.on('cambioNombre')).toBe(2);
+    });
     /*it('modelA openListener method. It should open a listener', function() {
         modelA.openListener('cambioNombre',function() { return 1 });
         expect(modelA.listenerEvns.cambioNombre()).toBe(1);

@@ -13,6 +13,7 @@
   "author": "Juan Camilo",
   "license": "ISC",
   "devDependencies": {
+    "grunt": "^1.0.1",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-connect": "^1.0.2",
     "grunt-contrib-jasmine": "^1.0.3"
